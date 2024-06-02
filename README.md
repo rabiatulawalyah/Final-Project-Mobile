@@ -6,14 +6,23 @@ Aplikasi ini menyediakan deskripsi, massa, dan volume setiap planet, serta galer
 
 Cara Penggunaan:
 Buka Aplikasi: Luncurkan ALienWorlds di perangkat Anda.
-Login : Masukkan Username dan Password yang telah di register sebelumnya
-Register : Apabila belum punya akun, maga register terlebih dahulu, jika selesai anda akan otomatis diarahkan ke login
+
+Login : Masukkan Username dan Password yang telah di register sebelumnya.
+
+Register : Apabila belum punya akun, maga register terlebih dahulu, jika selesai anda akan otomatis diarahkan ke login.
+
 Daftar Planet: Pada halaman utama (main screen), Anda akan melihat daftar planet. Setiap planet ditampilkan dengan nama dan gambar mini.
+
 Pilih Planet: Ketuk pada nama atau gambar mini planet yang ingin Anda pelajari lebih lanjut.
-Detail Planet: Anda akan dibawa ke halaman detail planet, yang menampilkan deskripsi planet, massa, volume, dan foto planet tersebut
-Navigasi: Gunakan tombol navigasi atau swipe gesture untuk beralih ke photos yang berisi dokumentasi planet dan fragment logout
-Photos : Fragment yang berisi foto foto atau dokumentasi planet planet yang otomatis berganti tiap 3 detik sekali
-Logout: Ada fragment logout disebelah kanan untuk memudahkan pengguna keluar aplikasi
+
+Detail Planet: Anda akan dibawa ke halaman detail planet, yang menampilkan deskripsi planet, massa, volume, dan foto planet tersebut.
+
+Navigasi: Gunakan tombol navigasi atau swipe gesture untuk beralih ke photos yang berisi dokumentasi planet dan fragment logout.
+
+Photos : Fragment yang berisi foto foto atau dokumentasi planet planet yang otomatis berganti tiap 3 detik sekali.
+
+Logout: Ada fragment logout disebelah kanan untuk memudahkan pengguna keluar aplikasi.
+
 
 Implementasi Teknis
 Struktur Aplikasi:
