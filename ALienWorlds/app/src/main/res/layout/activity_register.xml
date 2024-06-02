@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".activities.RegisterActivity">
+
+    <ImageView
+        android:id="@+id/background_image_register"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/loginnn"
+        android:scaleType="centerCrop" />
+    <LinearLayout
+        android:id="@+id/allregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="20dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:backgroundTint="#070F2B"
+        android:background="@drawable/background_rounded"
+        android:elevation="8dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            app:boxBackgroundMode="outline"
+            app:boxCornerRadiusTopStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxStrokeColor="@color/white"
+            app:hintTextColor="@color/white">
+
+            <EditText
+                android:id="@+id/et_userRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:textColor="@color/white"
+                android:inputType="text"
+                android:textColorHint="@color/white" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            app:boxBackgroundMode="outline"
+            app:boxCornerRadiusTopStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxStrokeColor="@color/white"
+            app:hintTextColor="@color/white">
+
+            <EditText
+                android:id="@+id/et_passwordRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:textColor="@color/white"
+                android:inputType="textPassword"
+                android:textColorHint="@color/white" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_register2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:textColor="#070F2B"
+            android:textSize="25dp"
+            android:fontFamily="@font/shifty"
+            android:text="REGISTER"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/connectionlostRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oopss...Connection Lost"
+        android:textSize="25dp"
+        android:fontFamily="@font/shifty"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:visibility="gone"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/retryRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="Retry"
+        android:textColor="#070F2B"
+        android:textSize="25dp"
+        android:fontFamily="@font/shifty"
+        android:visibility="gone"
+        android:layout_below="@id/connectionlostRegister"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/ProgressBarRegister"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:visibility="gone"
+        app:lottie_rawRes="@raw/alienku"
+        app:lottie_autoPlay="false"
+        app:lottie_loop="true"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
